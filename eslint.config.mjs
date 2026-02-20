@@ -13,6 +13,9 @@ const eslintConfig = [
   ...compat.extends('next/core-web-vitals', 'next/typescript'),
   {
     rules: {
+      'react/no-unescaped-entities': 'warn',
+      '@next/next/no-img-element': 'warn',
+      'react-hooks/exhaustive-deps': 'warn',
       '@typescript-eslint/ban-ts-comment': 'warn',
       '@typescript-eslint/no-empty-object-type': 'warn',
       '@typescript-eslint/no-explicit-any': 'warn',

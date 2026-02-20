@@ -5,7 +5,7 @@ const LoginLogo = () => {
   return (
     <>
       <Image
-        src="/hpc.jpeg" 
+        src="/logo2.png" 
         alt="Hotel Peaceeland Logo"
         width={180}
         height={60}
